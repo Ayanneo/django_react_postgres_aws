@@ -94,12 +94,23 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'notekeeper',
-        'USER': 'postgres',
+        'USER': 'ayannamdev',
         'PASSWORD': 'qwer4321',
-        'HOST': 'localhost',
+        'HOST': 'database-1.cpa7fbmgditj.us-east-2.rds.amazonaws.com',
         'PORT': '5432',
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'notekeeper',
+#         'USER': 'postgres',
+#         'PASSWORD': 'qwer4321',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
 
 
 
